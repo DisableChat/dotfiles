@@ -1,6 +1,9 @@
 # dotfiles
 . . . 
 
+### Eval dircolors
+`dircolors /path/to/dircolors/r i p`
+
 ### Tmux Key bindings
 Reload TMUX environment so TPM is sourced:
 
