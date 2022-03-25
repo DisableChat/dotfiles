@@ -23,6 +23,7 @@ disabled = false
 
 [time]
 disabled = false
+style = "dimmed"
 format = '[](bold blue) [\[$time\] ]($style)'
 
 [username]
