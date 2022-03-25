@@ -1,0 +1,42 @@
+add_newline = false
+
+format="""
+$all\
+$fill\
+$time\
+$line_break\
+$directory\
+$character\
+"""
+
+[fill]
+symbol = " "
+
+#[character]
+#success_symbol = "[](blue)"
+
+[hostname]
+ssh_only = false
+format =  "[$hostname](bold blue) "
+trim_at = ".companyname.com"
+disabled = false
+
+[time]
+disabled = false
+style = "dimmed"
+format = '[](bold blue) [\[$time\] ]($style)'
+
+[username]
+style_user = "white bold"
+style_root = "black bold"
+format = "[$user]($style)@"
+disabled = false
+show_always = true
+
+[directory]
+truncation_length = 8
+truncation_symbol = "../"
+truncate_to_repo = false
+
+[cmd_duration]
+disabled = true

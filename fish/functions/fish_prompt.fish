@@ -80,8 +80,8 @@ function fish_prompt --description 'Write out the prompt'
 
     # PWD
     echo -n -s "$USER" @ (prompt_hostname) ' '
-    #set_color 5f8700
-    set_color 8bc404
+    set_color 5f8700
+    #set_color 8bc404
     printf "%s" (echo $PWD|sed -e 's|/private||' -e "s|^$HOME|~|")
     set_color normal
 
