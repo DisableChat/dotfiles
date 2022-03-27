@@ -10,6 +10,9 @@ Plug 'tpope/vim-rhubarb'
 if has("nvim")
     " Collection of common configurations for the Nvim LSP client
     Plug 'tami5/lspsaga.nvim', { 'branch': 'nvim6.0' }
+
+    Plug 'folke/lsp-colors.nvim'
+
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
     " Collection of common configurations for the Nvim LSP client
@@ -51,12 +54,12 @@ if has("nvim")
 
     Plug 'lewis6991/impatient.nvim'
 
+    Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 
     "Plug 'hoob3rt/lualine.nvim'
     "Plug 'kristijanhusak/defx-git'
     "Plug 'kristijanhusak/defx-icons'
     "Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
-    "Plug 'folke/lsp-colors.nvim'
     "Plug 'L3MON4D3/LuaSnip'
     "Plug 'hrsh7th/cmp-nvim-lsp'
     "Plug 'hrsh7th/cmp-buffer'
