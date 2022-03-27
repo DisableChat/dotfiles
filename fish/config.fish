@@ -1,10 +1,3 @@
-#set -g GREP_OPTIONS '--color=always'
-# Set dir colors
-#eval ( dircolors --c-shell $HOME/.dircolors.256dark )
-
-#kitty + complete setup fish | source
-
-
 set fish_greeting ""
 
 set -gx TERM xterm-256color
@@ -16,6 +9,17 @@ set -g theme_display_user yes
 set -g theme_hide_hostname no
 set -g theme_hostname always
 
+# aliases
+#alias ls "ls -p -G"
+#alias la "ls -A"
+#alias ll "ls -l"
+#alias lla "ll -A"
+
 set -gx EDITOR nvim
+
+#if type -q exa
+    #alias ll "exa -l -g --icons"
+    #alias lla "ll -a"
+#end
 
 starship init fish | source
