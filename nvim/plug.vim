@@ -55,7 +55,9 @@ if has("nvim")
     Plug 'lewis6991/impatient.nvim'
 
     Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
-
+    
+    Plug 'onsails/lspkind-nvim'
+    
     "Plug 'hoob3rt/lualine.nvim'
     "Plug 'kristijanhusak/defx-git'
     "Plug 'kristijanhusak/defx-icons'
