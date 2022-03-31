@@ -11,6 +11,6 @@ for file in ~/dotfiles/*; do
     fi
 done
 
-cd ~-
+cd ~
 
 echo "Files are now stowed";
